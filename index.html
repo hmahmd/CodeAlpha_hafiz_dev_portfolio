@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hafiz Muhammad Ahmed - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="background-pattern"></div>
+
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#"><div class="logo">Portfolio.</div></a>
+        <button class="menu-toggle" id="mobile-menu">☰</button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero-section" id="home">
+      <div class="hero-content">
+        <div class="hero-badge">👋 Welcome to my portfolio</div>
+        <h1 class="hero-title">Hafiz Muhammad Ahmed</h1>
+        <p class="hero-description">
+          I'm a passionate Frontend Developer who transforms ideas into
+          stunning, high-performance web applications. Specializing in modern
+          UI/UX and clean code.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="cta-primary">View My Work</a>
+          <a href="#contact" class="cta-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-header">
+        <div class="section-badge">🚀 My Expertise</div>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-description">
+          A comprehensive skill set built through dedication and real-world
+          projects
+        </p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">📄</div>
+          <div class="skill-name">HTML5</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <div class="skill-name">CSS3</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <div class="skill-name">JavaScript</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🔧</div>
+          <div class="skill-name">DOM Manipulation</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <div class="skill-name">API Integration</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-header">
+        <div class="section-badge">💼 Portfolio</div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-description">
+          A showcase of my recent work and creative solutions
+        </p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">☀️ Weather App</div>
+          <div class="project-content">
+            <h3 class="project-title">Weather Dashboard</h3>
+            <p class="project-description">
+              Real-time weather application with geolocation support and 7-day
+              forecast. Built with vanilla JavaScript and REST API integration.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">API</span>
+              <span class="project-tag">CSS</span>
+            </div>
+            <a
+              href="https://skycast-weather-app-khaki.vercel.app/"
+              class="project-link"
+              target="_blank"
+              >View Project →</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">🔢 Calculator</div>
+          <div class="project-content">
+            <h3 class="project-title">Advanced Calculator</h3>
+            <p class="project-description">
+              Feature-rich calculator with scientific functions, history
+              tracking, and responsive design. Pure vanilla JavaScript
+              implementation.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">DOM</span>
+              <span class="project-tag">UI/UX</span>
+            </div>
+            <a
+              href="https://modern-calculator-chi.vercel.app/"
+              class="project-link"
+              target="_blank"
+              >View Project →</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">🎬 Streaming Hub</div>
+          <div class="project-content">
+            <h3 class="project-title">Streaming Hub UI</h3>
+            <p class="project-description">
+              Modern streaming platform interface with dynamic content loading,
+              smooth animations, and fully responsive design across all devices.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <a
+              href="https://streaming-hub-recreation.vercel.app/"
+              class="project-link"
+              target="_blank"
+              >View Project →</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="contact-section" id="contact">
+        <div class="section-header">
+          <div class="section-badge">📬 Let's Connect</div>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-description">
+            Have a project in mind? Let's build something amazing together
+          </p>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name" class="form-label">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              class="form-input"
+              placeholder="John Doe"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              class="form-input"
+              placeholder="john@example.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea
+              id="message"
+              class="form-textarea"
+              placeholder="Tell me about your project..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="social-icons">
+          <a
+            href="https://github.com/hmahmd/"
+            target="_blank"
+            class="social-icon"
+            title="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hmahmd/"
+            target="_blank"
+            class="social-icon"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://wa.me/923112015969"
+            target="_blank"
+            class="social-icon"
+            title="WhatsApp"
+          >
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <p class="copyright">
+          © 2024 Hafiz Muhammad Ahmed | Crafted with Passion
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
