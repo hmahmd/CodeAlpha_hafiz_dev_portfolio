@@ -56,4 +56,4 @@ A feature-rich scientific calculator with history tracking and responsive design
 
 ---
 
-<p align="center">© 2024 Hafiz Muhammad Ahmed | Crafted with Passion</p>
+<p align="center">© 2026 Hafiz Muhammad Ahmed | Crafted with Passion</p>
